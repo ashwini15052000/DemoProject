@@ -16,6 +16,7 @@ public class ABC
 		driver.findElement(By.name("userName")).sendKeys("AAAA");
 		driver.findElement(By.name("password")).sendKeys("aaaa");
 		driver.findElement(By.name("submit")).click();
+		System.out.println("Bye");
 	}
 
 }
